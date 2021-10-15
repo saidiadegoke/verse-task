@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: 'Tech Task'
+primary: true
+siteGroup: edce792e-a29d-46e6-9de5-3e063b13487d # Tech Task
+sortOrder: 1
