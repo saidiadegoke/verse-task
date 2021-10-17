@@ -6,6 +6,9 @@ A simple web application based on the Craft CMS.
 ```
 git clone git@github.com:saidiadegoke/verse-task.git
 ```
+```
+cd verse-task
+```
 
 2. Install dependencies
 ```
