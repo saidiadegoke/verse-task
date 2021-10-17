@@ -1,0 +1,19 @@
+fieldLayouts:
+  371087b3-0dce-4bdc-8053-c41be8dff8ff:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 984b744a-c73a-4d47-b429-e5a9b311a18d # Nav Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Nav Item'
+        sortOrder: 1
+handle: navigation
+name: Navigation
+sortOrder: 1

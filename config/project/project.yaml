@@ -1,13 +1,42 @@
-dateModified: 1634316499
+dateModified: 1634494241
 email:
   fromEmail: rasheedsaidi@gmail.com
   fromName: 'Tech Task'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    4c5538a0-58a3-41b4-8f7a-d92adbdd0f20: Banner # Banner
+    6e9e8a5d-a9ad-46f0-afc8-bbb8cd21ebcf: Entries # Entries
+    8c2393d4-a13d-460b-9a7b-8e64e6f85ca0: EntryContent # EntryContent
+    8d9df68f-eb65-4862-9a85-f6c36b14e5a6: 'Link Url' # Link Url
+    14dd5e06-b590-4c77-8dd4-f2441b8b15a0: Navigation # Navigation
+    44dacfcb-d5b7-42a4-bfe7-7ee67e8ba954: 'Logo Icon' # Logo Icon
     62b6628f-db05-4628-96ab-4b76671ce74b: 'Tech Task' # Tech Task
+    71c89165-9bcd-4f42-9b24-ba5a34bc3342: 'Link Label' # Link Label
+    245afdaf-6be5-47e9-b0f0-00f2e1bfbf64: Entries # Entries
+    976b73a6-9c2f-4d42-b7a4-27477d68133c: 'Link Logo' # Link Logo
+    984b744a-c73a-4d47-b429-e5a9b311a18d: 'Nav Link' # Nav Link
+    917431a5-6e7c-4bac-82cc-6ed8acdaec51: 'Entry Fields' # Entry Fields
+    9508267f-c357-4054-942b-5c20f66372d4: Hero # Hero
+    a1adae4b-f87a-4e73-b571-36a462a77f58: Homepage # Homepage
+    a6ce5709-494e-4189-b371-d461cab04188: Banner # Banner
+    bfceefd6-3148-456c-bd4e-249539cff7ec: 'Redactor Content' # Redactor Content
+    c9df0165-79e7-4f94-9094-259a8d4559d9: 'Image Data' # Image Data
+    cf5c4c68-f9a9-4b16-b246-b7cf836d4d1d: Link # Link
     daa2e738-b5aa-483e-88d3-5ddee8af7f56: Common # Common
+    e9b967f6-fd19-4724-9ec8-72c84279cbc6: Hero # Hero
+    e9100a30-3277-403d-81f2-a15eb8a37fe2: General # General
+    eaf0e5b9-282c-4882-9ee2-20f2d2999559: Homepage # Homepage
     edce792e-a29d-46e6-9de5-3e063b13487d: 'Tech Task' # Tech Task
+plugins:
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true

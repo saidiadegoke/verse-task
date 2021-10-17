@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: hero
+name: Hero
+propagationMethod: all
+siteSettings:
+  62b6628f-db05-4628-96ab-4b76671ce74b: # Tech Task
+    enabledByDefault: true
+    hasUrls: true
+    template: hero/_entry
+    uriFormat: hero
+type: single

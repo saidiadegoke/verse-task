@@ -10,7 +10,7 @@
     {% set hero = craft.entries().section('hero').one() %}
 
     {# Extract the entries into a posts variable #}
-    {% set posts = craft.entries().section('posts').all() %}
+    {% set posts = craft.entries().section('entries').all() %}
 
     {# Include the banner section #}
     {% include "_banner" with { banner: banner } only %}

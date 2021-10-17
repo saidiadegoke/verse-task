@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: banner
+name: Banner
+propagationMethod: all
+siteSettings:
+  62b6628f-db05-4628-96ab-4b76671ce74b: # Tech Task
+    enabledByDefault: true
+    hasUrls: true
+    template: banner/_entry
+    uriFormat: banner
+type: single

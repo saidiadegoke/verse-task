@@ -1,0 +1,54 @@
+field: 984b744a-c73a-4d47-b429-e5a9b311a18d # Nav Link
+fieldLayouts:
+  28123133-158b-42b9-8f6c-49fce8ae554e:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 976b73a6-9c2f-4d42-b7a4-27477d68133c # Link Logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  976b73a6-9c2f-4d42-b7a4-27477d68133c: # Link Logo
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: linkLogo
+    instructions: ''
+    name: 'Link Logo'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:e9100a30-3277-403d-81f2-a15eb8a37fe2' # General
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:245afdaf-6be5-47e9-b0f0-00f2e1bfbf64' # Entries
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: logoIcon
+name: 'Logo Icon'
+sortOrder: 2

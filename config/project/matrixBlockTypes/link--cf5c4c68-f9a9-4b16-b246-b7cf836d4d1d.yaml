@@ -1,0 +1,70 @@
+field: 984b744a-c73a-4d47-b429-e5a9b311a18d # Nav Link
+fieldLayouts:
+  3eb1a1a8-59ad-447d-9284-b711acf15af0:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 71c89165-9bcd-4f42-9b24-ba5a34bc3342 # Link Label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8d9df68f-eb65-4862-9a85-f6c36b14e5a6 # Link Url
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  8d9df68f-eb65-4862-9a85-f6c36b14e5a6: # Link Url
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkUrl
+    instructions: ''
+    name: 'Link Url'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  71c89165-9bcd-4f42-9b24-ba5a34bc3342: # Link Label
+    columnSuffix: null
+    contentColumnType: string(200)
+    fieldGroup: null
+    handle: linkLabel
+    instructions: ''
+    name: 'Link Label'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: 50
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: link
+name: Link
+sortOrder: 1

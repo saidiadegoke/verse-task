@@ -24,7 +24,7 @@
                                 </div>
                             </li>
                         {% else %}
-                            <li><a href="{{ url(nav.linkUrl) }}">{{ nav.linkLabel }}</a></li>
+                            <li><a {% if nav.linkLabel == 'Navigation 6' %} class="active" {% endif %} href="{{ url(nav.linkUrl) }}">{{ nav.linkLabel }}</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
