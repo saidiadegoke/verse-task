@@ -26,6 +26,11 @@ composer install
 * Enter mysql password
 * Edit the variable `PRIMARY_SITE_URL=http://localhost/verse-task/web` to your local setting.
 
-5. From [here](https://raw.githubusercontent.com/saidiadegoke/verse-task/880cfca1559947a130eabf6ae1dc8af2be879e53/verse-task.sql), download, unzip and copy the content `assets.zip` file/folder to your `assets` folder located at `path/to/verse-task/web/assets`
+5. Generate security keys
+```
+php craft setup/security-key
+```
 
-6. Type in the value of the constant `PRIMARY_SITE_URL` into your browser. For example: `http://localhost/verse-task/web`
+6. From [here](https://raw.githubusercontent.com/saidiadegoke/verse-task/880cfca1559947a130eabf6ae1dc8af2be879e53/verse-task.sql), download, unzip and copy the content `assets.zip` file/folder to your `assets` folder located at `path/to/verse-task/web/assets`
+
+7. Type in the value of the constant `PRIMARY_SITE_URL` into your browser. For example: `http://localhost/verse-task/web`
