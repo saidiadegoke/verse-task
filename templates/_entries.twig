@@ -1,0 +1,25 @@
+<section class="entries-section">
+    <div class="entries-tabs">
+        <ol>
+            <li class="banner-tabs-active">
+                <a href="#active" class="active">Active Tab</a>
+            </li>
+            <li>
+                <a href="#hovered">Hovered Tab</a>
+            </li>
+            <li>
+                <a href="#inactive" class="inactive">Inactive Tab</a>
+            </li>
+        </ol>
+    </div>
+    <div class="entries-tabs-content">
+        {% for post in posts %}
+        <div class="entry-item">
+            <div class="entry-item-image" style="background-image: url({{ post.imageData.one().getURL() }});"></div>
+            <h4>{{ post.title }}</h4>
+            <p>{{ post.redactorContent|striptags }}</p>
+            <a href="#" class="link-n-arrow">Link & Arrow ></a>
+        </div>
+        {% endfor %}
+    </div>
+</section>

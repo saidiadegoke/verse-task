@@ -3,17 +3,22 @@
 {# Override the content block in the main layout #}
 {% block content %}
 
+    {# Extract the banner information into a banner variable #}
     {% set banner = craft.entries().section('banner').one() %}
 
+    {# Extract the hero information into a hero variable #}
     {% set hero = craft.entries().section('hero').one() %}
 
+    {# Extract the entries into a posts variable #}
     {% set posts = craft.entries().section('posts').all() %}
 
+    {# Include the banner section #}
     {% include "_banner" with { banner: banner } only %}
 
-    {% include "_posts" with { posts: posts } only %}
+    {# Include the entries section #}
+    {% include "_entries" with { posts: posts } only %}
 
+    {# Include the hero section #}
     {% include "_hero" with { hero: hero } only %}
     
 {% endblock %}
-        
